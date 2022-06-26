@@ -1,0 +1,152 @@
+html::-webkit-scrollbar {
+	display: none; /* for Chrome, Safari, and Opera */
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	text-align: center;
+	font-family: "Merriweather", serif;
+	color: #40514e;
+}
+
+h1 {
+	margin: 90px auto 0 auto;
+	font-family: "Sacramento", cursive;
+	font-size: 90px;
+	font-weight: 550;
+	color: #66bfbf;
+	line-height: 2;
+}
+
+h2 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 2.5rem;
+	margin-top: 0;
+	color: #66bfbf;
+	padding-bottom: 10px;
+}
+
+h3 {
+	font-family: "Montserrat", sans-serif;
+	color: #11999e;
+}
+
+a {
+	color: #11999e;
+	font-family: "Montserrat", sans-serif;
+	margin: 10px 20px;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #11499e;
+}
+
+p {
+	line-height: 1.5;
+}
+
+hr {
+	border: dotted #ccfdfd 6px;
+	border-bottom: none;
+	width: 2%;
+	margin: 100px auto;
+}
+
+.top-container {
+	position: relative;
+	padding-top: 100px;
+	background-color: #e4f9e5;
+}
+
+.middle-container {
+	margin: 100px 0;
+}
+
+.bottom-container {
+	background-color: #66bfbf;
+	padding: 50px 0 20px;
+}
+
+.bottom-cloud,
+.top-cloud {
+	position: absolute;
+}
+
+.top-cloud {
+	right: 300px;
+	top: 40px;
+}
+
+.bottom-cloud {
+	left: 250px;
+	bottom: 300px;
+}
+
+.profileimg {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	margin: 0 0 20px;
+}
+
+.mountainimg {
+	height: 45%;
+	width: 45%;
+}
+
+.gifReact,
+.gifJS,
+.code-icon,
+.web-icon {
+	height: 18%;
+	width: 18%;
+	float: left;
+	margin-right: 30px;
+}
+
+.gifJS,
+.web-icon {
+	float: right;
+	margin-left: 30px;
+}
+
+.skill-row {
+	width: 50%;
+	margin: 100px auto;
+	text-align: left;
+}
+
+.btn {
+	background: #11cdd4;
+	background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+	border-radius: 8px;
+	font-family: "Montserrat", sans-serif;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+.btn:hover {
+	background: #30e3cb;
+	background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+	text-decoration: none;
+}
+
+.intro {
+	width: 30%;
+	margin: auto;
+}
+
+.contact-msg {
+	width: 40%;
+	margin: 40px auto 60px;
+}
+
+.copyright {
+	color: #eaf6f6;
+	font-size: 0.75rem;
+	padding: 20px 0 0;
+}
